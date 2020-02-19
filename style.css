@@ -1,6 +1,29 @@
 h1{
     text-align-last: center;
 }
-div{
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+  
+  
+.tot{
+    text-align-last: center;
+}
+.tax{
+    text-align-last: center;
+}
+.grandtotal{
+    text-align-last: center;
+}
+footer{
+    text-align-last: center;
+}
+.but{
     text-align-last: center;
 }

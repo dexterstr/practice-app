@@ -12,23 +12,26 @@
     <main>
         <br>
         <div>
-            <div> <label>Total: </label>
-                <input id="total" type="text" placeholder="Enter Bill" value=""></div>
-            <br>
-            <div><label>Rate: </label>
-                <input id="rate" type="field-rate" placeholder="Enter Rate" value=""></div>
+            <div class="tot"> <label >Total: </label>
+                <input id="total" type="text" placeholder="Enter Bill" value=""></div class="tot">
+                <br>
+           <div class="row">
+            <div class="column" ><label>Rate: </label>
+                <input id="rate" type="field-rate" placeholder="Enter Rate" size="7" value=""></div>
+            
+            <div class ="column"><label>Tip: </label><span id="Tip">$0.00</span></div>
+           </div>
+            
+           <br>
 
-            <br>
-            <div><label>Tip: </label><span id="Tip">$0.00</span></div>
-            <br>
-
-            <div><label>Tax: <span id="Tax">$0.00</span></label></div>
+            <div class="tax"><label>Tax: <span id="Tax">$0.00</span></label></div>
             <br>
 
-            <div><label>Grand Total: <span id="GrandTotal">$0.00</span></label></div>
+            <div class="grandtotal"><label>Grand Total: <span id="GrandTotal">$0.00</span></label></div class="grand total">
             <br>
-
+<div class="but">
             <button id="calci">Calculate</button>
+        </div>
 
             <footer>
                 <p>&copy; Tarun Sarpanjeri</p>

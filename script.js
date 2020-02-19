@@ -5,8 +5,9 @@ function app()
 
      console.log(Rate);
      
-     const Tip=Total*(Rate/100)
      const TaxRate=5.5
+     const Tip=Total*(Rate/100)
+     
      const Tax=Total*(TaxRate/100)
      const GrandTotal=Total+Tip+Tax;
 
